@@ -144,6 +144,12 @@ a:hover{color:#eaf1ff}
 .hero-title{font-size:clamp(18px,2.2vw,22px); color:#eaf1ff; margin:0}
 .hero-subtitle{margin:0; color:#cfe0ff}
 .btn.small{padding:8px 12px; font-size:14px; border-radius:10px}
+.hero-content .btn.small{
+  background: rgba(11,16,32,.9);
+  color: #e6edf7;
+  border: 1px solid rgba(255,255,255,.2);
+  backdrop-filter: blur(4px);
+}
 
 .hero-illustration{
   position:relative; aspect-ratio:1.1/1; background:linear-gradient(180deg, rgba(255,255,255,.03), rgba(255,255,255,0));
